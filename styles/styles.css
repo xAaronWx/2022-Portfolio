@@ -113,6 +113,16 @@ section {
           transform: translateY(-50%);
 }
 
+.controlls .active-btn {
+  background-color: var(--color-secondary) !important;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.controlls .active-btn i {
+  color: var(--color-white) !important;
+}
+
 .controlls .control {
   padding: 1rem;
   cursor: pointer;
@@ -132,5 +142,11 @@ section {
   margin: 0.7rem 0;
   -webkit-box-shadow: var(--box-shadow-1);
           box-shadow: var(--box-shadow-1);
+}
+
+.controlls .control i {
+  font-size: 1.2rem;
+  color: var(--color-grey2);
+  pointer-events: none;
 }
 /*# sourceMappingURL=styles.css.map */
